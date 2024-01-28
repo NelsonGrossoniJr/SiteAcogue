@@ -1,0 +1,563 @@
+
+@media screen and (min-width: 1200px) {
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  border-radius: 100px;
+  width: 280px;
+  height: 180px;
+}
+
+header{
+  width: 100%;
+  height: 125px;
+  background-color: SaddleBrown;
+  font-family: 'Roboto', sans-serif;
+  position: fixed;
+}
+
+header ul li {
+  list-style-type: none;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.firstLi {
+  margin-left: 10px;
+}
+
+.last3Li {
+  margin-right: 30px
+}
+
+.designLinkHeader{
+  text-decoration: none;
+  color: rgba(255,255,255,0.5);
+  font-size: 20px;
+  
+}
+
+.designLinkHeader:hover{
+  color: rgba(255,255,255,1.0);
+}
+
+#logoImgStyle{
+  width:150px;
+  height:125px;
+  opacity:1.0;
+  margin-left: 10px;
+}
+
+#imgFundo{
+  width: 100%;
+  height: 100vh; 
+  background-image: url("imagens/fundoCarne.jpg"); 
+  background-size: cover; 
+  padding: 100px 0px 0px 0px;
+
+}
+
+#styleTextImg{
+  text-align: center;
+  margin-top: 10%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  color: rgba(255,255,255,0.85)
+}
+
+#styleTextImg h1{
+  text-align: center;
+  margin-top: 10%;
+  font-family: 'Indie Flower', cursive;
+  font-size: 100px;
+  color: rgba(255,255,255,0.85)
+}
+
+
+/* AQUI COMEÇA OS CORTES/CHURRASCO */
+
+/* TITULOS PRINCIPAL */
+
+/*fundoTituloPretoLeBra */
+  
+.fundoTituloPretoLeBra { 
+  width: 100%;
+  height: 150px;
+  background-color:SaddleBrown;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fundoTituloPretoLeBra h1{
+  font-size: 50px;
+  letter-spacing: 10px;
+  
+}
+
+
+  
+/*fundoTituloBrancoLePre */
+  
+.fundoTituloBrancoLePre {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  color: SaddleBrown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fundoTituloBrancoLePre h1{
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+
+  
+/* IMAGENS */
+
+.posicaoImgFunPre{
+  display: flex;
+  justify-content: space-evenly;
+  background-color:SaddleBrown;
+}
+
+.posicaoImgFunBra {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+  
+/* TITULO SECUNDARIO */
+
+.tituloImgFunPreLeBra{
+  text-align: center;
+  background-color:SaddleBrown;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.tituloImgFunBrancoLePreta{
+  text-align: center;
+  margin-bottom: 50px;
+  color: SaddleBrown;
+}
+
+  
+  
+/* IFRAME */
+
+iframe {
+  margin-bottom: 30px;
+}
+
+#centralizandoIframe {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#styleFundoIframe {
+  background-color:SaddleBrown;
+  color: white;
+  padding-bottom: 50px;
+ 
+}
+
+
+  
+/* FUNCIONAMENTO */
+
+#funcionamentoId ul  {
+  font-size: 25px;
+  display: inline-block;
+}
+
+
+  
+/* WHATSAPP */
+
+#logoWhatsapp{
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  z-index: 0;
+}
+
+#clickLogoWhats{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  z-index: 1;
+}
+
+
+  
+/* FOOTER */
+
+footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  
+header {
+  display:none;
+}
+  
+  *{
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  border-radius: 100px;
+  width: 280px;
+  height: 180px;
+}
+
+#imgFundo{
+  width: 100%;
+  height: 100vh; 
+  background-image: url("imagens/fundoCarne.jpg"); 
+  background-size: cover; 
+  padding: 100px 0px 0px 0px;
+
+}
+
+#styleTextImg{
+  text-align: center;
+  margin-top: 20%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  color: rgba(255,255,255,0.85)
+}
+
+#styleTextImg h1{
+  margin-top: 10%;
+  font-family: 'Indie Flower', cursive;
+  font-size: 100px;
+  color: rgba(255,255,255,0.85)
+}
+
+
+/* AQUI COMEÇA OS CORTES/CHURRASCO */
+
+/* TITULOS PRINCIPAL */
+
+/*fundoTituloPretoLeBra */
+.fundoTituloPretoLeBra { 
+  width: 100%;
+  height: 150px;
+  background-color:SaddleBrown;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fundoTituloPretoLeBra h1{
+  font-size: 50px;
+  letter-spacing: 10px;
+  text-align: center;
+  
+}
+
+/*fundoTituloBrancoLePre */
+.fundoTituloBrancoLePre {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  color: SaddleBrown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fundoTituloBrancoLePre h1{
+  font-size: 50px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+
+
+/* TITULO SECUNDARIO */
+
+
+.tituloImgFunPreLeBra{
+  text-align: center;
+  background-color:SaddleBrown;
+  color: white;
+  padding-bottom: 25px;
+}
+
+.tituloImgFunBrancoLePreta{
+  text-align: center;
+  margin-bottom: 50px;
+  color: SaddleBrown;
+}
+
+/* IFRAME */
+
+iframe {
+  margin-bottom: 30px;
+}
+
+#centralizandoIframe {
+  text-align: center;
+}
+
+#styleFundoIframe {
+  background-color:SaddleBrown;
+  color: white;
+  padding-bottom: 50px;
+ 
+}
+
+/* FUNCIONAMENTO */
+
+#funcionamentoId ul  {
+  font-size: 25px;
+  display: inline-block;
+}
+
+/* WHATSAPP */
+
+#logoWhatsapp{
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  z-index: 0;
+}
+
+#clickLogoWhats{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  z-index: 1;
+}
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 670px) {
+  
+header {
+  display:none;
+}
+  
+  *{
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  border-radius: 100px;
+  width: 200px;
+  height: 130px;
+}
+
+#imgFundo{
+  width: 100%;
+  height: 100vh; 
+  background-image: url("imagens/fundoCarne.jpg"); 
+  background-size: cover; 
+  padding: 100px 0px 0px 0px;
+
+}
+
+#styleTextImg{
+  text-align: center;
+  margin-top: 20%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: rgba(255,255,255,0.85)
+}
+
+#styleTextImg h1{
+  margin-top: 10%;
+  font-family: 'Indie Flower', cursive;
+  font-size: 60px;
+  color: rgba(255,255,255,0.85)
+}
+
+
+/* AQUI COMEÇA OS CORTES/CHURRASCO */
+
+/* TITULOS PRINCIPAL */
+
+/*fundoTituloPretoLeBra */
+.fundoTituloPretoLeBra { 
+  width: 100%;
+  height: 150px;
+  background-color:SaddleBrown;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fundoTituloPretoLeBra h1{
+  font-size: 30px;
+  letter-spacing: 10px;
+  text-align: center;
+  
+}
+
+/*fundoTituloBrancoLePre */
+.fundoTituloBrancoLePre {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  color: SaddleBrown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fundoTituloBrancoLePre h1{
+  font-size: 30px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+  
+
+/* TITULO SECUNDARIO */
+
+
+.tituloImgFunPreLeBra{
+  text-align: center;
+  background-color:SaddleBrown;
+  color: white;
+  padding-bottom: 25px;
+}
+
+.tituloImgFunBrancoLePreta{
+  text-align: center;
+  margin-bottom: 50px;
+  color: SaddleBrown;
+}
+
+/* IFRAME */
+
+iframe {
+  margin-bottom: 30px;
+}
+
+#centralizandoIframe {
+  text-align: center;
+}
+
+#styleFundoIframe {
+  background-color:SaddleBrown;
+  color: white;
+  padding-bottom: 50px;
+ 
+}
+
+/* FUNCIONAMENTO */
+
+#funcionamentoId ul  {
+  font-size: 25px;
+  display: inline-block;
+}
+
+/* WHATSAPP */
+
+#logoWhatsapp{
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  z-index: 0;
+}
+
+#clickLogoWhats{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  z-index: 1;
+}
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+}
